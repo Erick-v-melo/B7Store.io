@@ -1,1 +1,5 @@
 # B7Store.io
+
+LOJA VIRTUAL COMPLETA FEITA EM HTML, CSS E JAVASCRIPT.
+
+Projeto desenvolvido no curso COMECE NA PROGRAMAÇÃO da B7Web!
