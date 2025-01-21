@@ -16,6 +16,11 @@
   text-align: center;
 }
 
+.product-item .product-photo img {
+  width: 213px;
+  height: 210px;
+}
+
 .product-item .product-name {
   font-weight: 500;
   font-size: 1.8rem;
