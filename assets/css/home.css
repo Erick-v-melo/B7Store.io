@@ -110,3 +110,51 @@
     padding-right: 20px;
   }
 }
+
+/*PRODUCT LIST*/
+
+.product-list {
+  margin: 24px;
+}
+
+.product-list h4 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.8rem;
+  color: #000;
+}
+
+.product-list h5 {
+  text-align: center;
+  font-weight: 400;
+  font-size: 1.2rem;
+  color: #7F7F7F;
+}
+
+.products-area {
+  margin: 32px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+@media (width > 1024px) {
+  .product-list h4, .product-list h5 {
+    text-align: left;
+
+  }
+
+  .product-list h4 {
+    font-size: 2.4rem;
+  }
+
+  .product-list h5 {
+    font-size: 1.6rem;
+  }
+
+  .products-area {
+    margin-top: 40px;
+    flex-direction: row;
+  }
+ 
+}
