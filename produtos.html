@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>B7Store</title>
+  <link rel="stylesheet" href="assets/css/global.css">
+  <link rel="stylesheet" href="assets/css/header.css">
+  <link rel="stylesheet" href="assets/css/newsletter.css">
+  <link rel="stylesheet" href="assets/css/footer.css">
+  <link rel="stylesheet" href="assets/css/single_product.css">
+  <link rel="stylesheet" href="assets/css/produtos.css">
+</head>
+<body>
+  <section class="header-warning">
+    <div class="mobile"><span>FRETE GRÁTIS</span> para todo o Brasil!</div>
+    <div class="desktop"><span>FRETE GRÁTIS</span> para todo o Brasil nas compras acima de R$ 199,00.<span>APROVEITA!</span></div>
+  </section>
+  <header>
+    <div class="header-main">
+      <div class="header-left">
+        <a class="logo" href="">
+          <img src="assets/images/ui/logo-black.png" alt="B7Store">
+        </a>
+        <ul>
+          <li><a href="produtos.html">Camisetas</a></li>
+          <li><a href="produtos.html">Kits B7Web</a></li>
+          <li><a href="produtos.html">Acessórios</a></li>
+          <li><a href="produtos.html">Eletrônicos</a></li>
+        </ul>
+      </div>
+      <div class="header-right">
+        <input class="search" type="text" placeholder="Pesquisa">
+        <a class="btn-icon" href="login.html">
+          <img src="assets/images/ui/user-line.png" alt="">
+        </a>
+        <a class="btn-icon"  href="checkout.html">
+          <img src="assets/images/ui/shopping-bag-4-line.png" alt="">
+        </a>
+        <a class="btn-icon menu-burguer">
+          <img class="off" src="assets/images/ui/menu-line.png" alt="">
+          <img class="on" src="assets/images/ui/menu-line-white.png" alt="">
+        </a>
+      </div>
+    </div>
+    <div class="header-menu-mobile">
+      <a href="produtos.html">Camisetas</a>
+      <a href="produtos.html">Kits B7Web</a>
+      <a href="produtos.html">Acessórios</a>
+      <a href="produtos.html">Eletrônicos</a>
+    </div>
+    <div class="header-search">
+      <input class="search" type="text" placeholder="O que você procura?">
+    </div>
+  </header>
+  <main>
+
+    <section class="breadcrumb">Home > Camisetas</section>
+    <section class="info">
+      <div class="product-qt"><span>12</span> Produtos</div>
+      <div class="top-buttons">
+        <div class="top-button" data-name="order">
+          <div class="top-button-name">Ordenar</div>
+          <div class="top-button-icon">
+            <img src="assets/images/ui/arrow-up-down-line.png" alt="Ordenar">
+          </div>
+        </div>
+        <div class="top-button" data-name="filter">
+          <div class="top-button-name">Filtrar</div>
+          <div class="top-button-icon">
+            <img src="assets/images/ui/equalizer-2-line.png" alt="Ordenar">
+          </div>
+        </div>
+      </div>
+      <div class="order-area">
+        <label for="order">Ordenar por</label>
+        <select name="order" id="order">
+          <option value="price">Preço</option>
+          <option value="bestselling">Mais vendidos</option>
+          <option value="alpha">Ordem alfabética</option>
+        </select>
+      </div>
+    </section>
+
+    <section class="products">
+      <div class="filters">
+
+        <div class="filter">
+          <div class="filter-header">
+            <div class="filter-name">Tecnologia</div>
+            <img class="filter-icon" src="assets/images/ui/arrow-left-s-line.png" alt="">
+          </div>
+          <div class="filter-body">
+            <label for="" class="filter-option">
+              <input type="checkbox" name="tecnologia" value="rn">
+              <span>React Native</span>
+            </label>
+            <label for="" class="filter-option">
+              <input type="checkbox" name="tecnologia" value="node">
+              <span>Node</span>
+            </label>
+            <label for="" class="filter-option">
+              <input type="checkbox" name="tecnologia" value="laravel">
+              <span>Laravel</span>
+            </label>
+            <label for="" class="filter-option">
+              <input type="checkbox" name="tecnologia" value="react">
+              <span>React</span>
+            </label>
+          </div>
+        </div>
+
+        <div class="filter">
+          <div class="filter-header">
+            <div class="filter-name">Cores</div>
+            <img class="filter-icon" src="assets/images/ui/arrow-left-s-line.png" alt="">
+          </div>
+          <div class="filter-body">
+            <label for="" class="filter-option">
+              <input type="checkbox" name="Cores" value="preto">
+              <span>Preto</span>
+            </label>
+            <label for="" class="filter-option">
+              <input type="checkbox" name="Cores" value="azul">
+              <span>Azul</span>
+            </label>
+            <label for="" class="filter-option">
+              <input type="checkbox" name="Cores" value="verde">
+              <span>Verde</span>
+            </label>
+            <label for="" class="filter-option">
+              <input type="checkbox" name="Cores" value="branco">
+              <span>Branco</span>
+            </label>
+          </div>
+        </div>
+
+        <div class="filter">
+          <div class="filter-header">
+            <div class="filter-name">Preços</div>
+            <img class="filter-icon" src="assets/images/ui/arrow-left-s-line.png" alt="">
+          </div>
+          <div class="filter-body">
+            <label for="" class="filter-option">
+              <input type="checkbox" name="precos" value="R$ 10,00 - R$50,00">
+              <span>R$ 10,00 - R$50,00</span>
+            </label>
+            <label for="" class="filter-option">
+              <input type="checkbox" name="precos" value="R$ 50,00 - R$100,00">
+              <span>R$ 50,00 - R$100,00</span>
+            </label>
+          </div>
+        </div>
+      </div>
+      <div class="grid">
+
+        <div class="product-item">
+          <a href="product.html">
+            <div class="product-photo">
+              <img src="assets/images/products/camiseta-node.png" alt="camiseta node">
+            </div>
+            <div class="product-name">Camisa Node Js - Verde</div>
+            <div class="product-price">R$ 59,99</div>
+            <div class="product-info">Pagamento via PIX</div>
+          </a>
+          <div class="product-fav">
+            <img src="assets/images/ui/heart-3-line.png" alt="like">
+          </div>  
+        </div>
+
+        <div class="product-item">
+          <a href="product.html">
+            <div class="product-photo">
+              <img src="assets/images/products/camiseta-laravel-branca.png" alt="camiseta laravel">
+            </div>
+            <div class="product-name">Camisa Laravel - Branca</div>
+            <div class="product-price">R$ 59,99</div>
+            <div class="product-info">Pagamento via PIX</div>
+          </a>
+          <div class="product-fav">
+            <img src="assets/images/ui/heart-3-line.png" alt="like">
+          </div>  
+        </div>
+
+        <div class="product-item">
+          <a href="product.html">
+            <div class="product-photo">
+              <img src="assets/images/products/camiseta-laravel-azul.png" alt="camiseta laravel">
+            </div>
+            <div class="product-name">Camisa Laravel - Azul</div>
+            <div class="product-price">R$ 59,99</div>
+            <div class="product-info">Pagamento via PIX</div>
+          </a>
+          <div class="product-fav">
+            <img src="assets/images/ui/heart-3-line.png" alt="like">
+          </div>  
+        </div>
+
+        <div class="product-item">
+          <a href="product.html">
+            <div class="product-photo">
+              <img src="assets/images/products/camiseta-css.png" alt="camiseta css3">
+            </div>
+            <div class="product-name">Camisa CSS3 - Azul</div>
+            <div class="product-price">R$ 59,99</div>
+            <div class="product-info">Pagamento via PIX</div>
+          </a>
+          <div class="product-fav">
+            <img src="assets/images/ui/heart-3-line.png" alt="like">
+          </div>  
+        </div>
+
+        <div class="product-item">
+          <a href="product.html">
+            <div class="product-photo">
+              <img src="assets/images/products/camiseta-html.png" alt="camiseta html5">
+            </div>
+            <div class="product-name">Camisa HTML5 - Laranja</div>
+            <div class="product-price">R$ 59,99</div>
+            <div class="product-info">Pagamento via PIX</div>
+          </a>
+          <div class="product-fav">
+            <img src="assets/images/ui/heart-3-line.png" alt="like">
+          </div>  
+        </div>
+
+        <div class="product-item">
+          <a href="product.html">
+            <div class="product-photo">
+              <img src="assets/images/products/camiseta-js.png" alt="camiseta js">
+            </div>
+            <div class="product-name">Camisa JS - Amarela</div>
+            <div class="product-price">R$ 59,99</div>
+            <div class="product-info">Pagamento via PIX</div>
+          </a>
+          <div class="product-fav">
+            <img src="assets/images/ui/heart-3-line.png" alt="like">
+          </div>  
+        </div>
+
+        <div class="product-item">
+          <a href="product.html">
+            <div class="product-photo">
+              <img src="assets/images/products/camiseta-react-cinza.png" alt="camiseta RN">
+            </div>
+            <div class="product-name">Camisa RN - Cinza</div>
+            <div class="product-price">R$ 59,99</div>
+            <div class="product-info">Pagamento via PIX</div>
+          </a>
+          <div class="product-fav">
+            <img src="assets/images/ui/heart-3-line.png" alt="like">
+          </div>  
+        </div>
+
+        <div class="product-item">
+          <a href="product.html">
+            <div class="product-photo">
+              <img src="assets/images/products/camiseta-laravel-preta.png" alt="camiseta laravel">
+            </div>
+            <div class="product-name">Camisa Laravel - Preta</div>
+            <div class="product-price">R$ 59,99</div>
+            <div class="product-info">Pagamento via PIX</div>
+          </a>
+          <div class="product-fav">
+            <img src="assets/images/ui/heart-3-line.png" alt="like">
+          </div>  
+        </div>
+
+        <div class="product-item">
+          <a href="product.html">
+            <div class="product-photo">
+              <img src="assets/images/products/camiseta-node-preta.png" alt="camiseta node">
+            </div>
+            <div class="product-name">Camisa Node Js - Preta</div>
+            <div class="product-price">R$ 59,99</div>
+            <div class="product-info">Pagamento via PIX</div>
+          </a>
+          <div class="product-fav">
+            <img src="assets/images/ui/heart-3-line.png" alt="like">
+          </div>  
+        </div>
+      </div>
+    </section>
+
+  </main>
+  <section class="newsletter">
+    <div class="news-area">
+      <div class="news-left">
+        <img src="assets/images/ui/mail-send-line.png" alt="">
+        <div>
+          <h3>Fique por dentro das promoções!</h3>
+          <p>Coloque seu e-mail e seja o primeiro a saber</p>
+        </div>
+      </div>
+      <div class="news-right">
+        <input class="input" type="email" placeholder="Qual seu e-mail?">
+        <button class="button">Enviar</button>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <div class="footer-menu">
+      <a class="logo" href=""><img src="assets/images/ui/logo-white.png" alt="B7Store"></a>
+      <ul>
+        <li><a href="produtos.html">Camisetas</a></li>
+        <li><a href="produtos.html">Kits B7Web</a></li>
+        <li><a href="produtos.html">Acessórios</a></li>
+        <li><a href="produtos.html">Eletrônicos</a></li>
+      </ul>
+    </div>
+    <div class="footer-contacts">
+      <div class="contacts">
+        <div class="footer-tiile">Precisa de ajuda ?</div>
+        <div class="footer-icons">
+          <a class="btn-icon-text" href="">
+            <img src="assets/images/ui/mail-line.png" alt="email">
+            <span>b7store@email.com</span>
+          </a>
+          <a class="btn-icon-text" href="">
+            <img src="assets/images/ui/phone-line.png" alt="phone">
+            <span>(00) 00000-0000</span>
+          </a>
+        </div>
+      </div>
+      <div class="social">
+        <div class="footer-tiile">Acompanhe nas redes sociais</div>
+        <div class="footer-icons">
+          <a class="btn-icon" href="">
+            <img src="assets/images/ui/instagram-line.png" alt="instagram">
+          </a>
+          <a class="btn-icon" href="">
+            <img src="assets/images/ui/linkedin-line.png" alt="instagram">
+          </a>
+          <a class="btn-icon" href="">
+            <img src="assets/images/ui/facebook-line.png" alt="instagram">
+          </a>
+          <a class="btn-icon" href="">
+            <img src="assets/images/ui/twitter-x-fill.png" alt="instagram">
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="phrase">Se você leu isso aqui, saiba que está no caminho certo! <br/>
+        Continue estudando e você chegará lá...
+      </div>
+      <div class="btn-icon">
+        <img src="assets/images/ui/arrow-up-line.png" alt="Seta subir">
+      </div>
+    </div>
+  </footer>
+  <script type="text/javascript" src="assets/js/header.js"></script>
+  <script type="text/javascript" src="assets/js/footer.js"></script>
+  <script type="text/javascript" src="assets/js/home.js"></script>
+  <script type="text/javascript" src="assets/js/produtos.js"></script>
+</body>
+</html>
